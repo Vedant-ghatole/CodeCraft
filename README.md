@@ -42,6 +42,18 @@ The Mental Health Companion is a smart chatbot that helps users manage stress an
 
 -BACKEND:
 
+[Future Enhancements](#future-enhancements)  
+
+
+🚀 Future Enhancements:
+-Chatbot support – Symptom-based preliminary analysis.
+-Telemedicine – Video consultations with doctors.
+-Enhanced EHR – Better patient data management.
+-Multi-Language Support – Localization for global users.
+-Blockchain Security – Secure medical record storage.
+-Wearable Integration – Syncing health devices.
+
+
 
 
 
