@@ -36,8 +36,11 @@ The Mental Health Companion is a smart chatbot that helps users manage stress an
 [Tech Stack](#tech-stack)
 
 -FRONTEND:
+
  index.html- 
+ 
  script.js-
+ 
  styles.css-
 
 -BACKEND:
@@ -46,11 +49,17 @@ The Mental Health Companion is a smart chatbot that helps users manage stress an
 
 
 🚀 Future Enhancements:
+
 -Chatbot support – Symptom-based preliminary analysis.
+
 -Telemedicine – Video consultations with doctors.
+
 -Enhanced EHR – Better patient data management.
+
 -Multi-Language Support – Localization for global users.
+
 -Blockchain Security – Secure medical record storage.
+
 -Wearable Integration – Syncing health devices.
 
 
