@@ -54,35 +54,30 @@ The Mental Health Companion is a smart chatbot that helps users manage stress an
 1. Smarter & More Personalized :-
 
 The chatbot can learn from your past responses to give better suggestions.
-
 It can remind you to meditate or breathe when you seem stressed.
 
 
 2. Talk & Listen Features :-
 
 You can talk to the chatbot instead of typing.
-
 It can understand emotions from your voice and suggest calming activities.
 
 
 3. Connect with Smart Devices :-
 
 It can link to smartwatches to check your heart rate and stress levels.
-
 If your heart rate is high, it can suggest a quick breathing exercise.
 
 
 4. Fun & Rewarding Experience :-
 
 You can earn badges and rewards for regular meditation.
-
 It can make relaxation feel like a fun challenge with daily goals.
 
 
 5. Easy to Use Anywhere:-
 
 Supports different languages so more people can use it.
-
 Works on phones, computers, and smart speakers.
 
 
