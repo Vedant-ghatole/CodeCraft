@@ -74,7 +74,7 @@ If your heart rate is high, it can suggest a quick breathing exercise.
 Supports different languages so more people can use it.
 Works on phones, computers, and smart speakers.
 
-[Contributing](#contributing)  
+🔀 [Contributing](#contributing)  
 
 
 1. Help with Coding:-
@@ -83,18 +83,15 @@ If you know coding, you can help make the chatbot smarter.
 You can fix errors and add new features.
 
 
-
 2. Add Useful Content:-
 
 Write meditation guides and breathing exercises.
 Share mental health tips and positive messages.
 
 
-
 3. Improve Design:-
 
 Ensure it to provide ease and work well for everyone, including people with disabilities.
-
 
 
 4. Test & Give Feedback:-
@@ -103,13 +100,12 @@ Try using the chatbot and share what can be better.
 Report any problems or missing features.
 
 
-
 5. Marketing and Community Building:-
 
 Tell friends and family about the chatbot.
 Share it on social media to help more people.
 
-[License](#license)  
+© [License](#license)  
 
 
 1. Your Name or Company Name 
