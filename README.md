@@ -9,8 +9,11 @@ The Mental Health Companion chatbot serves as a safe, supportive, and interactiv
 -📊 Mood tracking for self-awareness
 
 ## Table of contents
+ [Problem Statement](#problem-statement)  
+ -Build a chatbot for guided meditation, breathing exercises and mood tracking.
 
-[INTROUCTION](#INTRODUCTION)
-HELLO WORLD
+ [Solution Overview](#solution-overview)  
+ 
+
 
 
