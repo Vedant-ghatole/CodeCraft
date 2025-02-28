@@ -33,17 +33,6 @@ The Mental Health Companion is a smart chatbot that helps users manage stress an
 
 ✅ 24/7 Accessibility – Access support whenever you need it.
 
-[Tech Stack](#tech-stack)
-
--FRONTEND:
-
- index.html- 
- 
- script.js-
- 
- styles.css-
-
--BACKEND:
 
 [Future Enhancements](#future-enhancements)  
 
