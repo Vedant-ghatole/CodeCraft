@@ -76,7 +76,7 @@ Works on phones, computers, and smart speakers.
 
 [Contributing](#contributing)  
 
-🔀 [Contributing]
+🔀 [Contributing]:-
 
 
 1. Help with Coding:-
@@ -107,7 +107,7 @@ Report any problems or missing features.
 Tell friends and family about the chatbot.
 Share it on social media to help more people.
 
-[License](#license)  
+[License](#license):-  
 
 © [License]
 
