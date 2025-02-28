@@ -10,5 +10,7 @@ The Mental Health Companion chatbot serves as a safe, supportive, and interactiv
 
 ## Table of contents
 
-- [hello world][#installation]
-- 
+[INTROUCTION](#INTRODUCTION)
+HELLO WORLD
+
+
