@@ -83,10 +83,12 @@ If you know coding, you can help make the chatbot smarter.
 You can fix errors and add new features.
 
 
+
 2. Add Useful Content:-
 
 Write meditation guides and breathing exercises.
 Share mental health tips and positive messages.
+
 
 
 3. Improve Design:-
@@ -94,10 +96,12 @@ Share mental health tips and positive messages.
 Ensure it to provide ease and work well for everyone, including people with disabilities.
 
 
+
 4. Test & Give Feedback:-
 
 Try using the chatbot and share what can be better.
 Report any problems or missing features.
+
 
 
 5. Marketing and Community Building:-
