@@ -74,7 +74,7 @@ If your heart rate is high, it can suggest a quick breathing exercise.
 Supports different languages so more people can use it.
 Works on phones, computers, and smart speakers.
 
- [Contributing](#contributing)  
+[Contributing](#contributing)  
 
 
 1. Help with Coding:-
@@ -104,6 +104,20 @@ Report any problems or missing features.
 
 Tell friends and family about the chatbot.
 Share it on social media to help more people.
+
+[License](#license)  
+
+
+1. Your Name or Company Name 
+
+2. Date of Agreement 
+
+3. Usage Limits 
+
+4. Governing Law 
+
+5. Additional Restrictions 
+
 
 
    
