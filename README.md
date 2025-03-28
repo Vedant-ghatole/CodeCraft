@@ -14,6 +14,7 @@ A smart, interactive, and AI-powered study assistant that helps students with in
 ⏳ 24/7 Availability – Learning never stops—get help whenever you need it.
 
 📌 Table of Contents
+
 Problem Statement
 
 Solution Overview
