@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudyBot - AI Doubt Solving Platform</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Learn and Rise
+            <div class="logo">Learn&Rise
                <img src="img/logo.png" alt="">
             </div>
             <ul class="nav-links">
@@ -27,7 +28,7 @@
             <div class="hero-content">
                 <h1>Get Instant Help with Your Academic Questions</h1>
                 <p>Connect with our AI-powered chatbot for detailed explanations and solutions to your academic doubts.</p>
-                <button class="cta-button">Start Learning Now</button>
+                <button class="cta-button"> <a  href="index.html"> Start Learning Now </a> </button>
             </div>
             <div class="hero-image">
                 <img src="img/img1.webp" alt="Student learning illustration">
@@ -35,7 +36,7 @@
         </section>
 
         <section class="features">
-            <h2>Why Choose StudyBot?</h2>
+            <h2>Why Choose StudyBot?</h2> 
             <div class="feature-cards">
                 <div class="feature-card">
                     <i class="fas fa-clock"></i>
@@ -82,21 +83,28 @@
             <h2>Student Success Stories</h2>
             <div class="testimonial-slider">
                 <div class="testimonial-card">
-                    <img src="img/student1.jpg" alt="Student">
+                    <img src="img/logo.png" alt="Student">
                     <p>"StudyBot helped me improve my grades significantly!"</p>
                     <h4>- Sarah Johnson</h4>
                 </div>
-                <!-- Add more testimonial cards as needed -->
+                
+            </div>
+            
+        </section>
+        <section class="hero-image">
+            <div class="students-images">
+                <img src="img/img2.webp" alt="Student learning illustration">
+                <img src="img/img3.webp" alt="Student learning illustration">
+                <img src="img/img4.webp" alt="Student learning illustration">
             </div>
         </section>
-
         <section class="contact" id="contact">
             <h2>Get in Touch</h2>
             <div class="contact-container">
                 <form class="contact-form">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <textarea placeholder="Your Message"></textarea>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
