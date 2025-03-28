@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudyBot - AI Doubt Solving Platform</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -15,7 +16,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="table.html">Time Table</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="login/index.html" class="login-btn">Login</a></li>
@@ -28,7 +29,7 @@
             <div class="hero-content">
                 <h1>Get Instant Help with Your Academic Questions</h1>
                 <p>Connect with our AI-powered chatbot for detailed explanations and solutions to your academic doubts.</p>
-                <button class="cta-button"> <a  href="index.html"> Start Learning Now </a> </button>
+                <a href="index.html" class="cta-button">Start Learning Now</a>
             </div>
             <div class="hero-image">
                 <img src="img/img1.webp" alt="Student learning illustration">
@@ -56,26 +57,15 @@
             </div>
         </section>
 
-        <!-- New Sections -->
         <section class="subjects" id="subjects">
             <h2>Popular Subjects</h2>
             <div class="subject-grid">
-                <div class="subject-card">
-                    <i class="fas fa-calculator"></i>
-                    <h3>Mathematics</h3>
-                </div>
-                <div class="subject-card">
-                    <i class="fas fa-atom"></i>
-                    <h3>Physics</h3>
-                </div>
-                <div class="subject-card">
-                    <i class="fas fa-flask"></i>
-                    <h3>Chemistry</h3>
-                </div>
-                <div class="subject-card">
-                    <i class="fas fa-dna"></i>
-                    <h3>Biology</h3>
-                </div>
+                <div class="subject-card"><i class="fas fa-calculator"></i><h3>Mathematics</h3><p>Algebra, Geometry, Calculus, and more.</p></div>
+                <div class="subject-card"><i class="fas fa-atom"></i><h3>Physics</h3><p>Mechanics, Thermodynamics, Electromagnetism.</p></div>
+                <div class="subject-card"><i class="fas fa-flask"></i><h3>Chemistry</h3><p>Organic, Inorganic, and Physical Chemistry.</p></div>
+                <div class="subject-card"><i class="fas fa-dna"></i><h3>Biology</h3><p>Genetics, Microbiology, Human Anatomy.</p></div>
+                <div class="subject-card"><i class="fas fa-laptop-code"></i><h3>Computer Science</h3><p>Programming, Data Structures, AI & ML.</p></div>
+                <div class="subject-card"><i class="fas fa-globe"></i><h3>Geography</h3><p>Climate, Landforms, Human Geography.</p></div>
             </div>
         </section>
 
@@ -83,21 +73,23 @@
             <h2>Student Success Stories</h2>
             <div class="testimonial-slider">
                 <div class="testimonial-card">
-                    <img src="img/logo.png" alt="Student">
+                    <img src="img/user1.jpg" alt="Sarah Johnson - Student">
                     <p>"StudyBot helped me improve my grades significantly!"</p>
                     <h4>- Sarah Johnson</h4>
                 </div>
-                
+                <div class="testimonial-card">
+                    <img src="img/user2.jpg" alt="Mike Chen - Student">
+                    <p>"The instant doubt resolution feature is a game-changer!"</p>
+                    <h4>- Mike Chen</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="img/user3.jpg" alt="Emma Davis - Student">
+                    <p>"I love how I can learn at my own pace with Learn&Rise."</p>
+                    <h4>- Emma Davis</h4>
+                </div>
             </div>
-            
         </section>
-        <section class="hero-image">
-            <div class="students-images">
-                <img src="img/img2.webp" alt="Student learning illustration">
-                <img src="img/img3.webp" alt="Student learning illustration">
-                <img src="img/img4.webp" alt="Student learning illustration">
-            </div>
-        </section>
+
         <section class="contact" id="contact">
             <h2>Get in Touch</h2>
             <div class="contact-container">
@@ -110,5 +102,11 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2024 Learn&Rise. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

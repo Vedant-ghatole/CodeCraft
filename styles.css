@@ -110,12 +110,13 @@ nav {
     max-width: 500px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: float 6s ease-in-out infinite;
 }
 
 .features {
     text-align: center;
     padding: 60px;
-    background: linear-gradient(to bottom, #ffffff, #eef2f3);
+    background: linear-gradient(to bottom, #605f5f, #eef2f3);
 }
 
 .features h2 {
@@ -128,28 +129,30 @@ nav {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .feature-card {
-    background: linear-gradient(135deg, #ffffff, #f0f4f8);
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 30px;
     border-radius: 20px;
     width: 280px;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.feature-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 119, 204, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 0.6s ease-out, background 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
 .feature-card i {
     font-size: 42px;
     color: #0077cc;
     margin-bottom: 15px;
+    transition: color 0.3s ease;
 }
 
 .feature-card h3 {
@@ -157,7 +160,36 @@ nav {
     margin-bottom: 10px;
 }
 
-/* New Subjects Section */
+.feature-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.feature-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 119, 204, 0.2);
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.feature-card:hover i {
+    color: #00bfff;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: -150%;
+    left: -150%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1), transparent);
+    transition: transform 0.6s ease-in-out;
+}
+
+.feature-card:hover::before {
+    transform: translate(50%, 50%);
+}
+
 .subjects {
     padding: 80px 60px;
     background: linear-gradient(to bottom, #eef2f3, #ffffff);
@@ -171,29 +203,52 @@ nav {
 }
 
 .subject-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 30px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease;
+    transition: transform 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
     cursor: pointer;
-}
-
-.subject-card:hover {
-    transform: scale(1.05);
-    background: linear-gradient(135deg, #0077cc, #005fa3);
-    color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .subject-card i {
     font-size: 48px;
     color: #0077cc;
     margin-bottom: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.subject-card:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, #0077cc, #005fa3);
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 119, 204, 0.3);
 }
 
 .subject-card:hover i {
     color: white;
+    transform: rotate(10deg);
+}
+
+.subject-card::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+}
+
+.subject-card:hover::before {
+    transform: translate(100%, 100%);
 }
 
 /* Testimonials Section */
@@ -210,6 +265,7 @@ nav {
     backdrop-filter: blur(10px);
     margin: 20px;
     text-align: center;
+    animation: pulse 4s ease-in-out infinite;
 }
 
 .testimonial-card img {
@@ -266,6 +322,131 @@ nav {
     box-shadow: 0 5px 15px rgba(0, 119, 204, 0.3);
 }
 
+.submit-btn.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.submit-btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@keyframes spin {
+    to { transform: translateY(-50%) rotate(360deg); }
+}
+
+/* Footer Styles */
+.footer {
+    background: linear-gradient(to right, #003366, #004d80);
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9900;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff9900;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    flex-grow: 1;
+}
+
+.newsletter-form button {
+    background: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+    background: #e68a00;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Enhanced Testimonial Slider */
+.testimonial-slider {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+}
+
+.testimonial-card {
+    min-width: 300px;
+    scroll-snap-align: start;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero {
@@ -282,4 +463,195 @@ nav {
     .nav-links {
         display: none;
     }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+}
+
+/* Add these new animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Add scroll reveal effect */
+.feature-card.visible, .subject-card.visible, .testimonial-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Add scroll progress bar */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to right, #ff9900, #ff5500);
+    z-index: 1000;
+    transition: width 0.2s ease-out;
+}
+
+/* Typing effect styles */
+.typing-effect {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.typed-text {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #fff;
+    margin-left: 3px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Scroll to top button */
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0077cc;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#scroll-to-top:hover {
+    background: #005fa3;
+    transform: translateY(-3px);
+}
+
+#scroll-to-top.visible {
+    display: flex;
+}
+
+/* Add gradient text effect */
+.gradient-text {
+    background: linear-gradient(45deg, #0077cc, #ff9900);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+/* Add smooth shadow transition */
+.hover-shadow {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 10px 30px rgba(0, 119, 204, 0.3);
+    transform: translateY(-5px);
+}
+
+/* Add ripple effect for buttons */
+.ripple-button {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple-button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform 0.5s, opacity 1s;
+}
+
+.ripple-button:active::after {
+    transform: scale(0, 0);
+    opacity: 0.3;
+    transition: 0s;
+}
+
+/* Add animated border effect */
+.animated-border {
+    position: relative;
+    border: none;
+}
+
+.animated-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: inherit;
+    background: linear-gradient(45deg, #0077cc, #ff9900) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    animation: borderRotate 4s linear infinite;
+}
+
+@keyframes borderRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add neon glow effect */
+.neon-glow {
+    box-shadow: 0 0 5px #0077cc,
+                0 0 10px #0077cc,
+                0 0 15px #0077cc;
+    animation: neonPulse 2s infinite;
+}
+
+@keyframes neonPulse {
+    0% { box-shadow: 0 0 5px #0077cc, 0 0 10px #0077cc, 0 0 15px #0077cc; }
+    50% { box-shadow: 0 0 10px #0077cc, 0 0 20px #0077cc, 0 0 30px #0077cc; }
+    100% { box-shadow: 0 0 5px #0077cc, 0 0 10px #0077cc, 0 0 15px #0077cc; }
 }
