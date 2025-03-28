@@ -61,15 +61,13 @@ CodeCraft is designed to solve these issues by offering:
 - Simple and intuitive chat-based interaction.
 - Easy-to-use UI designed for students.
 
-### 🔹 Multi-Subject Support
-- Covers Mathematics, Science, Programming, and more.
-- Expanding support for additional subjects.
-
 ## 🛠️ Tech Stack
 
 ### 🔹 Programming Languages
-- Python
+- Mern Stack
 - JavaScript
+- HTML
+- CSS
 
 ### 🔹 Frameworks & Libraries
 - TensorFlow / PyTorch (AI & ML)
@@ -79,6 +77,10 @@ CodeCraft is designed to solve these issues by offering:
 ### 🔹 AI/ML Models
 - Natural Language Processing (NLP)
 - Machine Learning Algorithms
+
+### 🔹 Database
+- Cloud Computing
+  - Google's Firebase
 
 ## 🔮 Future Enhancements
 
