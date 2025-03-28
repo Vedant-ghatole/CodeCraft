@@ -85,24 +85,39 @@ CodeCraft is designed to solve these issues by offering:
 ## 🔮 Future Enhancements
 
 ### 🔹 Voice Support
-- Enable users to ask questions using voice commands.
+- Users will be able to ask questions using voice commands instead of typing, making interactions easier.
 
 ### 🔹 Multi-Language Assistance
-- Support for multiple languages to help a wider audience.
+- The chatbot will support multiple languages to help students from different backgrounds.
 
 ### 🔹 Improved AI Accuracy
-- Continuous learning and model updates for better responses.
+- AI models will be continuously updated to provide more precise and relevant answers over time.
+
 
 ## 🤝 Contributing
 
 We welcome contributions! If you want to improve CodeCraft, feel free to:
-- Fork the repository
-- Create a feature branch
-- Submit a pull request
+
+### 🔹 Help with Coding:-
+If you know coding, you can help make the chatbot smarter.
+You can fix errors and add new features.
+
+### 🔹 Improve Design:-
+Ensure it to provide ease and work well for everyone, including people with disabilities.
+
+### 🔹 Test & Give Feedback:-
+Try using the chatbot and share what can be better.
+Report any problems or missing features.
+
+### 🔹 Marketing and Community Building:-
+Tell friends and family about the chatbot.
+Share it on social media to help more people.
+
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License.
+
 
 ---
 
