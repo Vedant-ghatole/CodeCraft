@@ -13,20 +13,20 @@ A smart, interactive, and AI-powered study assistant that helps students with in
 
 ---
 
-## 📌 Table of Contents:
+## 📌 Table of Contents:-
 
-- **Problem Statement**
-- **Solution Overview**
-- **Key Features**
+- **Problem Statement**-
+- **Solution Overview**-
+- **Key Features**-
   - Instant Responses
   - AI-Powered Explanations
   - User-Friendly Interface
   - Multi-Subject Support
-- **Tech Stack**
+- **Tech Stack**-
   - Programming Languages
   - Frameworks & Libraries
   - AI/ML Models
-- **Future Enhancements**
+- **Future Enhancements**-
   - Voice Support
   - Multi-Language Assistance
   - Improved AI Accuracy
@@ -35,11 +35,11 @@ A smart, interactive, and AI-powered study assistant that helps students with in
 
 ---
 
-## 🚀 Problem Statement
+## 🚀 Problem Statement:-
 
 Students often face challenges in getting timely answers to their academic doubts. Traditional methods involve waiting for a teacher’s response or searching through multiple online sources, which can be time-consuming and ineffective.
 
-## 💡 Solution Overview
+## 💡 Solution Overview:-
 
 CodeCraft is designed to solve these issues by offering:
 - Instant AI-powered responses to academic queries.
@@ -47,74 +47,74 @@ CodeCraft is designed to solve these issues by offering:
 - A 24/7 available chatbot to assist students anytime.
 - A user-friendly, chat-based interface for ease of interaction.
 
-## ✨ Key Features
+## ✨ Key Features:-
 
-### 🔹 Instant Responses
+### 🔹 Instant Responses-
 - Get academic doubts cleared in real time.
 - No need to wait for external assistance.
 
-### 🔹 AI-Powered Explanations
+### 🔹 AI-Powered Explanations-
 - Step-by-step breakdown of complex problems.
 - AI-driven learning for better conceptual clarity.
 
-### 🔹 User-Friendly Interface
+### 🔹 User-Friendly Interface-
 - Simple and intuitive chat-based interaction.
 - Easy-to-use UI designed for students.
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack:-
 
-### 🔹 Programming Languages
+### 🔹 Programming Languages-
 - Mern Stack
 - JavaScript
 - HTML
 - CSS
 
-### 🔹 Frameworks & Libraries
+### 🔹 Frameworks & Libraries-
 - TensorFlow / PyTorch (AI & ML)
 - React (Frontend)
 - Node.js (Backend)
 
-### 🔹 AI/ML Models
+### 🔹 AI/ML Models-
 - Natural Language Processing (NLP)
 - Machine Learning Algorithms
 
-### 🔹 Database
+### 🔹 Database-
 - Cloud Computing
-  - Google's Firebase
+- Google's Firebase
 
-## 🔮 Future Enhancements
+## 🔮 Future Enhancements:-
 
-### 🔹 Voice Support
+### 🔹 Voice Support-
 - Users will be able to ask questions using voice commands instead of typing, making interactions easier.
 
-### 🔹 Multi-Language Assistance
+### 🔹 Multi-Language Assistance-
 - The chatbot will support multiple languages to help students from different backgrounds.
 
-### 🔹 Improved AI Accuracy
+### 🔹 Improved AI Accuracy-
 - AI models will be continuously updated to provide more precise and relevant answers over time.
 
 
-## 🤝 Contributing
+## 🤝 Contributing:-
 
 We welcome contributions! If you want to improve CodeCraft, feel free to:
 
-### 🔹 Help with Coding:-
+### 🔹 Help with Coding-
 If you know coding, you can help make the chatbot smarter.
 You can fix errors and add new features.
 
-### 🔹 Improve Design:-
+### 🔹 Improve Design-
 Ensure it to provide ease and work well for everyone, including people with disabilities.
 
-### 🔹 Test & Give Feedback:-
+### 🔹 Test & Give Feedback-
 Try using the chatbot and share what can be better.
 Report any problems or missing features.
 
-### 🔹 Marketing and Community Building:-
+### 🔹 Marketing and Community Building-
 Tell friends and family about the chatbot.
 Share it on social media to help more people.
 
 
-## 📜 License
+## 📜 License:-
 
 This project is licensed under the MIT License.
 
