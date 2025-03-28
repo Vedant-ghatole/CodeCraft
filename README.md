@@ -5,7 +5,7 @@
 A smart, interactive, and AI-powered study assistant that helps students with instant step-by-step explanations for academic queries. No more waiting—get quick, clear answers anytime!
 
 
-**🔹 Key Benefits at a Glance**
+**🔹 Key Benefits at a Glance**  
 
 📖 Instant Doubt Solving – Get answers to academic queries in real time.
 
@@ -17,7 +17,7 @@ A smart, interactive, and AI-powered study assistant that helps students with in
 
 
 
-**📌 Table of Contents**
+**📌 Table of Contents**  
 
 Problem Statement
 
